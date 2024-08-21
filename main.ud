@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>UD Example</title>
+        <style>
+            body {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to UD</h1>
+        <php>
+            echo json_encode(
+                array(
+                    "message" => "Hello from PHP!"
+                )
+            );
+        </php>
+        <script>
+            var string = "Hello from JavaScript!";
+            console.log(string);
+        </script>
+        <python>
+            import os
+            print(os.name)
+        </python>
+        <java>
+            public class Main {
+                public static void main(String[] args) {
+                    System.out.println("Hello from Java!");
+                };
+            };
+        </java>
+    </body>
+</html>
